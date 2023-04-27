@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.day-container {
+  display: inline-block;
+  width: 100px;
+  height: 140px;
+  margin: 10px 5px;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.weekday {
+  position: absolute;
+  right: 50%;
+  margin-right: -12.5px;
+  top: 5px;
+}
+
+.max-temp {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  font-size: small;
+}
+
+.min-temp {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: small;
+}
+
+.visual {
+  position: relative;
+  bottom: -20px;
+}
